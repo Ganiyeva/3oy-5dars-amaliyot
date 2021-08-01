@@ -1,3 +1,4 @@
+@import url(icon.css);
 * {
   box-sizing: border-box;
 }
@@ -103,4 +104,66 @@ a {
 }
 .grid-item .name span {
   display: block;
+}
+
+.socials {
+  padding: 50px 0;
+  background-color: #1D2029;
+}
+.socials .row1 {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 227px 227px 227px 227px;
+}
+.socials .col1 {
+  padding: 20px 30px;
+  background-color: #252B43;
+  border-radius: 5px;
+  text-align: center;
+  color: green;
+}
+.socials .col1.minus {
+  color: red;
+}
+.socials .col1 a,
+.socials .col1 span {
+  display: block;
+  margin-bottom: 15px;
+  color: #fff;
+  opacity: 0.5;
+}
+.socials .col1 b {
+  font-size: 50px;
+  color: #fff;
+}
+.socials .row2 {
+  margin-top: 60px;
+}
+.socials .row2 .col2 {
+  padding: 20px 30px;
+  background-color: #252B43;
+  border-radius: 5px;
+  text-align: center;
+  color: green;
+}
+.socials .row2 .col2.minus {
+  color: red;
+}
+.socials .row2 .col2 span {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+.socials .row2 .col2 div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.socials .row2 .col2 div b {
+  font-size: 30px;
+  color: #fff;
+}
+.socials .row2 .col2 div b small {
+  font-size: 12px;
 }
